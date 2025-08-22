@@ -25,4 +25,4 @@
     name: mongod
     state: restarted
 
-# How to run this in server? ansible-playbook -i inventory.ini -e ansible_user=centos -e ansible_password=DevOps321 -e component=mongodb main.yaml
+# Only tasks informations is given here. How to run this in server? ansible-playbook -i inventory.ini -e ansible_user=centos -e ansible_password=DevOps321 -e component=mongodb main.yaml
